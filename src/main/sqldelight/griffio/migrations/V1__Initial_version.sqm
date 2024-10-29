@@ -1,0 +1,4 @@
+CREATE TABLE Scores (
+  name TEXT NOT NULL,
+  points INTEGER NOT NULL
+);
