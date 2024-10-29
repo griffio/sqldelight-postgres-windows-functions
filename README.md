@@ -12,6 +12,8 @@ FROM table_name
 WINDOW w AS (PARTITION BY c1 ORDER BY c2);
 ```
 
+Supported
+
 ```sql
 CREATE TABLE scores (
   name TEXT NOT NULL,
